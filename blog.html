@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <div class=" mx-auto text-left mt-4 w-1/2">
+        <p>
+        <h1 class="text-3xl font-semibold">1. What is DOM and what is the purpose of DOM?</h1>
+        <h1>In JavaScript, DOM is actually a class that makes it really easy to define each element present within a web
+            page so it
+            can be modified later. Whenever a page is loaded in the browser, its document object is formed that is named
+            as
+            "document". The Document Object Model (DOM) aims to make it easier for Javascript to access HTML elements.
+            DOM plays a rather very important role in website performance. For example, let's say you are visiting a
+            website and logging into your account. After logging in, you will be greeted by the website, for example,
+            'Hello <name>' along with your username, profile picture, etc.
+        </h1>
+        </p>
+
+        <p>
+        <h1 class="text-3xl font-semibold mt-3">2. How will you select HTML elements using DOM? Name the DOM methods.
+        </h1>
+        <h1> Most general way to manipulate html with dom is, Use the dom methods and put the class/id/tagname in dom
+            methods. Like if we want to access an input field given id="input-field" we have to write
+            document.getElementById('input-field').value to catch the element value, There are more methods of DOm
+            below. <br>
+            <span class="font-bold">DOM Methods:</span> <br>
+            <ul>
+                <li>innerHTML: It is used to access & write content inside HTML elements</li>
+                <li>innerText: It is used to access the text content of a node and its descendants</li>
+                <li>getElementById(): Access of an element using specific Id.</li>
+                <li>getElementsByClassName():It returns a collection of all objects which match the specified class in
+                    the method.</li>
+                <li>getElementsByName(): Returns a NodeList of objects which match a particular name attribute in the
+                    HTML document</li>
+                <li>getElementsByTagName(): Gives back objects which match a tag name in the HTML document</li>
+                <li>querySelector(): </li>
+                <li>querySelectorAll(): With this selector, It returns NodeList of all elements that are found within
+                    the HTML.</li>
+            </ul>
+
+        </h1>
+        </p>
+
+        <p>
+        <h1 class="text-3xl font-semibold mt-3">3. What is event bubble?</h1>
+        <h1>Event Bubbling in Javascript describe in which order some nested elements receive a given event.The
+            principle of bubbling is simple. Whenever an event occurs on an element, at first place it will run the
+            handler on
+            it, then its parent, then on other ancestors.</h1>
+        </p>
+
+        <p>
+        <h1 class="text-3xl font-semibold mt-3">4. What is a callback function and why will you use it?</h1>
+        <h1>A JavaScript callback is a function which is to be executed after another function has finished execution.
+
+            A more formal definition would be - Any function that is passed as an argument to another function so that
+            it can be
+            executed in that other function is called as a callback function. In our event handler section we put the
+            callback function so it can do the work inside and return the value to the following element where it will
+            work upon.</h1>
+        </p>
+    </div>
+
+</body>
+
+</html>
